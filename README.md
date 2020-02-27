@@ -11,4 +11,5 @@ For *r* in {6, 8}, the experimental probability for an *r*-round distinguisher i
 
 For r in {12, 14, 16}, due to the high complexity, the experiment is only performed for one randomly chosen key.
 
-We also implement the Algorithm 1 in the submitted paper for an x-round distinguisher and try to recovery one nibble of the secret key. We run this experiment (`*.cpp`) 10 times for 10 randomly chosen secret keys, and we never fail to recover `K[x]`.
+We also implement the Algorithm 1 in the submitted paper for an 7-round distinguisher and try to recovery one nibble of the secret key (`recover_knibble.cpp`). 
+
