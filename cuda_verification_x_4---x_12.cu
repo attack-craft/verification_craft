@@ -38,6 +38,7 @@ typedef unsigned int 		uint32_t;
 
 
 
+
 // the output of g
 #define LFSR(g) (((g >> 39) ^ (g >> 34) ^ (g >> 24) ^ (g >> 19) ^ (g >> 14) ^ (g >> 5)) & ONE)
 
