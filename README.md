@@ -17,5 +17,8 @@ For *r* in {6, 8}, the experimental probability for an *r*-round distinguisher i
 
 For r in {12, 14, 16}, due to the high complexity, the experiment is only performed for one randomly chosen key.
 
+For 8-round and 2-round weak-key differential characteristics, First, we set the tweak to satisfy the required conditions of the distinguisher, then we choose 16 keys which satisfy the required conditions of weak-key model randomly and conpute the probabilities and the average probability is used as the experimental probability.
+
 We also implement Algorithm 1 in the submitted paper for a 7-round distinguisher and try to recovery one nibble of the secret key (`recover_knibble.cpp`). 
+
 
