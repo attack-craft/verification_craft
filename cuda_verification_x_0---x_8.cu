@@ -17,8 +17,8 @@ typedef unsigned int 		uint32_t;
 #define KEY1 0xe5c67f9611b68427LLU
 
 
-#define INPUT_DIFF 0x00000000005a0a00LLU
-#define COND 0x00000000005a0a00LLU
+#define INPUT_DIFF 0x0000000000fa0a00LLU
+#define COND 0x0000000000fa0a00LLU
 
 
 
