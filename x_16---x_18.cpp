@@ -70,7 +70,6 @@ int Round(int Stt[16], int r)
     /* SB */
     for (int i = 0; i < 16; i++)
         Stt[i] = S[Temp[i]];
-
 }
 
 int Last_round(int Stt[16], int r)
