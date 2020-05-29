@@ -23,6 +23,7 @@ typedef unsigned int 		uint32_t;
 
 
 
+
 // constants for gpu
 #define ENUM_NUM 22
 #define BLOCK_NUM 128 //2^7
